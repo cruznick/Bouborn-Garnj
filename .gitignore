@@ -65,4 +65,5 @@ _app/_includes/scripts\.js
 
 yarn-error\.log
 _app/_assets/styles/vendor/**/*
-!_app/_assets/styles/vendor/.gitkeep
+!_app/_assets/styles/scss/vendor/.gitkeep
+_app/_assets/styles/scss/vendor/
