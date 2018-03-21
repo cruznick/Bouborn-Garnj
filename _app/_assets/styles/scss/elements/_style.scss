@@ -1,0 +1,4 @@
+body {
+    @include grid-visual;
+    @include grid-media($medium-screen)
+}

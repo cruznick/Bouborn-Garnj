@@ -1,0 +1,18 @@
+///     Grid settings
+$large-screen: (
+  columns: 12,
+  media: 1200px,
+  gutter: 10px
+);
+
+$medium-screen: (
+  columns: 8,
+  media: 960px,
+  gutter: 10px
+);
+
+$small-screen: (
+  columns: 6,
+  media: 768px,
+  gutter: 10px
+);
