@@ -1,4 +1,28 @@
 .nav-wrapper {
-    margin: 2vh auto;
-    max-width: 90vw;
+    @include grid-container;
+    @include grid-visual;
+    @include margin(2vh auto);
+}
+.top-nav {
+    @include grid-column(6, $neat-grid);
+
+    @include grid-media($tablet-up) {
+        @include grid-column(6);
+        @include grid-push(1);
+    }
+ }
+.nav-grid {
+    @include padding(1vh);
+    @include border-style(dotted);
+    @include grid-column(1 of 3);
+    @include margin(2rem null 2rem null);
+    a {
+        text-align: center;
+        display: block;
+    }
+}
+
+.main-title {
+    @include grid-column(6, $neat-grid);
+    text-align: center;
 }

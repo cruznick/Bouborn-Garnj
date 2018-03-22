@@ -1,18 +1,36 @@
 ///     Grid settings
-$large-screen: (
-  columns: 12,
-  media: 1200px,
-  gutter: 10px
-);
 
-$medium-screen: (
-  columns: 8,
-  media: 960px,
-  gutter: 10px
-);
-
-$small-screen: (
+$neat-grid: (
   columns: 6,
-  media: 768px,
-  gutter: 10px
+  gutter: 1vw,
+  media: "(min-width: 600px)",
 );
+$tablet-up: (
+  columns: 8,
+  media: "(min-width: 900px)",
+  gutter: 1vw,
+);
+
+$desktop-up: (
+  columns: 10,
+  media: "(min-width: 1200px)",
+  gutter: 1vw,
+);
+
+$retina-up: (
+  columns: 12,
+  media: "(min-width: 1800px)",
+  gutter: 1vw,
+);
+
+
+
+
+/// Bitters override
+/// Please delete this or if your like them move them to bitters
+/// files as it is intended
+
+a {
+    color: black;
+    text-decoration: none;
+};
