@@ -1,0 +1,43 @@
+{
+  "name": "Garnj",
+  "version": "1.0.0",
+  "description": "Yarn + Jekyll + Gulp expandable workflow",
+  "main": "gulpfile.babel.js",
+  "repository": "https://github.com/cruznick/Yarngj",
+  "author": "Benjamin Martinez <benjaminjmtz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.23.6",
+    "colors": "^1.1.2",
+    "cross-spawn": "^6.0.4",
+    "del": "^3.0.0",
+    "eslint": "^4.18.2",
+    "eslint-config-google": "^0.9.1",
+    "fancy-log": "^1.3.2",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-inline": "^1.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss-lint": "^0.6.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "gulp Setup"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
