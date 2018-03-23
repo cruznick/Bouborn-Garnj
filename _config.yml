@@ -16,8 +16,8 @@
 title: Garn plus Bourbon Suite
 email: your-email@example.com
 description: "This Site is built with Bourbon, Neat and Bitters"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Garnj-Bourbon" # the subpath of your site, e.g. /blog
+url: "https://benjmart.tech" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
