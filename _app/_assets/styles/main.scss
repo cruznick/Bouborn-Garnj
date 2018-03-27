@@ -1,4 +1,8 @@
 //  Here you import all your Sass/Scss Files and libs
+
+//@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Poppins&subset=latin-ext');
+
 @import "scss/vendor/bourbon/bourbon";
 @import "scss/vendor/neat/neat";
 @import "scss/vendor/base/base";
